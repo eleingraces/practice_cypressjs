@@ -5,7 +5,7 @@ let home = new homePage();
 let textBox = new textBoxSection();
 
 
-describe('TS01 User should be able to test the Text Box page.', () => {
+describe('TS01 Validate the Text Box page.', () => {
   before(() => {
     cy.clearCookies();
   })
