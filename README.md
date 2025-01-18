@@ -1,5 +1,5 @@
 <h1> 📝 practice_cypressjs </h1>
-This repository is to let people know how I do and create my Automated scripting via Cypress using Javascript framework
+This repository is to practice and let people know how I do and create my Automated scripting via Cypress using Javascript framework
 
 
 
