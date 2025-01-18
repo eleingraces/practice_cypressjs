@@ -69,22 +69,18 @@ class textBoxSection {
    email() {
       this.elements.emailLabel().should('contain.text', 'Email');
       this.elements.emailTextBox().type(email + '@demoqa.com');
-      this.elements.emailTextBox().invoke('val').as('email');
-
-      this.elements.fullNameTextBox().invoke('text').as('name');
-      cy.wrap('@name').as('fullName');
    }
 
    currentAddress() {
       this.elements.currentAddLabel().should('contain.text', 'Current Address');
-      this.elements.currentAddTextBox().type(buildingNumber + ' ' + secondAdd + ' ' + city + ' ' + state + ' ' + country);
-      this.elements.currentAddTextBox().invoke('val').as('currentAdd');
+      this.elements.currentAddTextBox()
+         .type(buildingNumber + ' ' + secondAdd + ' ' + city + ' ' + state + ' ' + country);
    }
 
    permanentAddress() {
       this.elements.permanentAddLabel().should('contain.text', 'Permanent Address');
-      this.elements.permanentAddTextBox().type(buildingNumber + ' ' + secondAdd + ' ' + city + ' ' + state + ' ' + country);
-      this.elements.permanentAddTextBox().invoke('val').as('permanentAdd')
+      this.elements.permanentAddTextBox()
+         .type(buildingNumber + ' ' + secondAdd + ' ' + city + ' ' + state + ' ' + country);
    }
 
    submitForm() {
