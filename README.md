@@ -4,8 +4,8 @@ This repository is to practice and let people know how I do and create my Automa
 
 
 ## 🚀 Features
-- Sample automated scripts for DEMOQA website (currently only web, API...soon)
-- Sample automated scripts for Contact List App website (web and API...soon)
+- Sample automated scripts for DEMOQA website (web UI)
+- Sample automated scripts for Contact List App website (web UI and API...soon)
 
 
 
