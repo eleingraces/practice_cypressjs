@@ -36,8 +36,8 @@ npx cypress open
 12. Go to cypress > e2e folder to see list of sample Test Scenarios and Test Cases I created.
 
 ## 📙 Test Scenarios and Test Cases (⚠️ In Progress)
-**Elements section:**
-  - TS01 - Validate the Text Box page
+**Elements section (cypress/e2e/1-demoqa/elements):**
+  - TS01 - Validate the Text Box page (cypress/e2e/1-demoqa/elements/TS01_TextBox.cy.js)
     - TC01 - User should be able to go to Elements page.
     - TC02 - User should be able to see the Text Box page.
     - TC03 - User should be able to input details in Full Name field.
